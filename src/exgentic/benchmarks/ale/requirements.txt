@@ -1,0 +1,7 @@
+# ALE benchmark adapter dependencies.
+# The ALE repo itself (rdi-berkeley/agents-last-exam) must be cloned
+# separately; it is NOT installed as a pip package.  The adapter reads
+# task_card.json and scoring scripts from the local clone.
+#
+# Core deps for the adapter (task card parsing, scoring):
+# (none beyond stdlib + pydantic, which exgentic already provides)
