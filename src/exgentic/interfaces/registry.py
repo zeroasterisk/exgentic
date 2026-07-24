@@ -130,6 +130,16 @@ BENCHMARKS: dict[str, RegistryEntry] = {
         subset_arg="subset",
         task_id_type="str",
     ),
+    "ale": RegistryEntry(
+        slug_name="ale",
+        display_name="Agents' Last Exam",
+        module="exgentic.benchmarks.ale.ale_benchmark",
+        attr="ALEBenchmark",
+        kind="benchmark",
+        subsets=("hello", "cpu_unlicensed", "unlicensed", "full"),
+        subset_arg="subset",
+        task_id_type="str",
+    ),
 }
 
 AGENTS: dict[str, RegistryEntry] = {
